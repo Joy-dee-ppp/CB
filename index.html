@@ -5,95 +5,197 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <title>Career Bridge</title>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        
+
     </head>
 
     <body>
-        <section class="header">
-            <nav>
-                <div class="navbar-head">CAREER <br/>BRIDGE</div>
-                    <div  class="navbar-links">
-                        <ul>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="user_form.html">USER</a></li>
-                            <li><a href="company_form.html">COMPANY</a></li>
-                            <li><a href="about.html">ABOUT</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>    
 
-    <!--Hero Section-->
-           <section class="hero">
-                <div class="hero-left">
-                    <h1>WELCOME  <br/>TO<br/>CAREER BRIDGE <br/></h1>
-                    <p>Bridging Job <br/>Seekers And Employers <br/>Effectively</p>
-                </div>
+        <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Career <br/>Bridge</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="#login" class="btn">Login</a>
+        <a href="#signup" class="btn">Sign Up</a>
+      </div>
+    </nav>
+  </header>
 
-                 <div class="hero-right">
-                    
-                    <video autoplay muted loop src="CB.mp4" width="300" height="400"></video>
-                </div>
-           </section>
-
-
+<!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>WELCOME <br/>TO <br/> CAREER BRIDGE</h1>
+        <div class="hero-subtext">
+          <div class="sub-lines">
+              <p>Bridging Job</p>
+              <p>Seekers And Employers </p>
+              <p>Effectively</p>
+            </div>
+                <a href="#get-started" class="btn-primary">Get Started</a>
+          </div>
+        </div>
+    <div class="hero-video">
+      <div class="circle">
+         <video autoplay muted loop src="CB.mp4" width="300" height="400">
+          YOUR BROWSER DOES NOT SUPPORT THE VIDEO TAG.
+         </video>
+      </div>
+    </div>
+  </section>
+  
            <!--FEATURES-->
+<hr>
+<!-- Features -->
+<section id="features" class="features">
+  <h1>FEATURES</h1>
+  <p class="subheading">Features That Works For You</p>
 
-<section class="features">
-    <hr class="feature-line">
-    <h1>FEATURES</h1>
-    <br />
-    <div class="container feature-boxes">
-      <div class="feature">
-        <h3>Secure Profile Management</h3>
-        <p>Job seekers can create, update, and delete their profiles with full security.</p>
-      </div>
-      <div class="feature">
-        <h3>Resume & Document Upload </h3>
-        <p>Upload resumes, certificates, and project files in one place for easy employer access.</p>
-      </div>
-      <div class="feature">
-        <h3>Company Dashboard</h3>
-        <p>Employers can log in and view/download candidate details and documents efficiently.</p>
-      </div>
-      <div class="feature">
-        <h3>Smart Search & Filters</h3>
-        <p>
-          Employers can filter candidates based on skills, experience, and fields of interest.</p>
-      </div>
-       <div class="feature">
-        <h3>Real-time Updates </h3>
-        <p>
-          Candidates can edit or update their details anytime, ensuring companies always see the latest info.</p>
-      </div>
-       <div class="feature">
-        <h3>One-click Profile Deletion </h3>
-        <p>
-          Users have complete control to remove their data instantly, ensuring privacy
+  <div class="container feature-boxes">
+
+    <div class="feature">
+      
+      <h3>Secure Profile Management</h3>
+      <i class="fas fa-user-shield"></i>
+      <p>Job seekers can create, update, and delete their profiles with full security.</p>
+    </div>
+
+    <div class="feature">
+      
+      <h3>Resume & Document Upload</h3>
+      <i class="fas fa-file-alt"></i>
+      <p>Upload resumes, certificates, and project files in one place for easy employer access.</p>
+    </div>
+
+    <div class="feature">
+      
+      <h3>Company Dashboard</h3>
+      <i class="fas fa-briefcase"></i>
+      <p>Employers can log in to view and download candidate details and documents efficiently.</p>
+    </div>
+
+    <div class="feature">
+     
+      <h3>Smart Search & Filters</h3>
+       <i class="fas fa-search"></i>
+      <p>Employers can filter candidates based on skills, experience, and fields of interest.</p>
+    </div>
+
+    <div class="feature">
+      
+      <h3>Real-time Updates</h3>
+      <i class="fas fa-bell"></i>
+      <p>Candidates can edit or update their profiles anytime, ensuring companies see the latest info.</p>
+    </div>
+
+    <div class="feature">
+      
+      <h3>One-click Profile Deletion</h3>
+      <i class="fas fa-trash"></i>
+      <p>Users have complete control to instantly delete their profiles while maintaining privacy.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- About Us -->
+  <section class="about">
+    <hr class="about-line">
+    <div class="about-container">
+      <h1>ABOUT US</h1>
+      <br/>
+      <div class="about-card">
+         <p>
+        Career Bridge is a secure and professional platform designed to connect job seekers with employers in a simple and efficient way. Our mission is to bridge the gap between talent and opportunity by offering a reliable space where candidates can create, update, and manage their profiles with complete control over their data. Unlike many other platforms, Career Bridge ensures privacy by allowing users to instantly delete their profiles whenever they choose. Job seekers can upload resumes, certificates, and project files in one place, while employers benefit from a dedicated dashboard that allows them to view candidate details, download documents, and use smart filters to find the right match. With real-time updates and a focus on security, Career Bridge makes the recruitment process faster, safer, and more transparent for both candidates and companies.
         </p>
       </div>
     </div>
   </section>
 
-  <!--WILL SEE IF WE ADD HOW IT WORKS PARTTTTTTT-->
+<!--VISION-->
+    <section class="vision">
+    <hr class="vision-line">
+    <div class="vision-container">
+      <h1>OUR VISION</h1>
+      <br/>
+       <div class="vision-card">
+          <p>
+          To build a bridge that empowers talent and opportunity to meet seamlessly, eliminating barriers and making recruitment more secure, transparent, and efficient.
+          </p>
+        </div>
+      </div>
+      </section>
 
-<!-- User Login Section -->
-<section class="login">
-    <hr lass="login-line">
-  <div class="user-card">
-    <!-- Animated video with glow -->
-    <video autoplay loop muted>
-      <source src="vb1.mp4" type="video/mp4" />
-      Your browser does not support video.
-    </video>
 
-    <!-- Pill Button -->
-      <div class="pill-container">
-      <a href="#" class="pill-btn">Create Account</a>
-      <p class="already">Already have an account? <a href="#">Log in</a></p>
+
+      <!--who we serve-->
+    <section class="serve">
+    <hr class="serve-line">
+    <h1>WHO WE SERVE</h1>
+    <br />
+    <div class="serve-boxes">
+      <div class="serves">
+                <h3>Job Seekers</h3>
+                  <p>Students, professionals, and career changers looking for new opportunities.</p>
+              </div>
+
+              <div class="serves">
+                <h3>Employers & Companies</h3>
+                  <p>Organizations searching for verified, skilled, and updated profiles without unnecessary complexity.</p>
+              </div>     
     </div>
-  </div>
-</section>
+
+    </section>
+
+
+ <footer>
+    <div class="footer-container">
+
+      <div class="col1">
+        <div class="footer-logo">
+          <h1>CAREER BRIDGE</h1>
+        </div>
+        <p>Bridging job seekers and employers effectively, helping talent and opportunity connect seamlessly.</p>
+      </div>
+
+      <div class="col2">
+        <h3>Quick Links</h3>
+        <ul class="quick-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">AboutUs</a></li>
+          <li><a href="#">Vision</a></li>
+        </ul>
+      </div>
+
+      <div class="col3">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-envelope"></i> careerbridge@gmail.com</p>
+        <ul class="contact-links">
+          <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a class="insta" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="fb" href="#"><i class="fab fa-facebook"></i></a></li>
+      </div>
+
+    </div>
+    <hr>
+    <p class="copyright">&copy; 2025 CAREER BRIDGE. All rights reserved.</p>
+  </footer>
+
+
+
+
+
+    
 
 
 
