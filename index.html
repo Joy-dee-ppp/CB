@@ -25,9 +25,25 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="auth-buttons">
-          <a href="#login" class="btn">Login</a>
-          <a href="#signup" class="btn">Sign Up</a>
-        </div>
+  <!-- Login Dropdown -->
+  <div class="dropdown-container">
+    <a href="#" class="nav-link">Login<i class="fas fa-chevron-down arrow"></i> </a>
+    <div class="dropdown-menu">
+      <a href="user_login.html">User Login</a>
+      <a href="company_login.html">Company Login</a>
+    </div>
+  </div>
+
+  <!-- Signup Dropdown -->
+  <div class="dropdown-container">
+    <a href="#" class="nav-link">Sign Up<i class="fas fa-chevron-down arrow"></i> </a>
+    <div class="dropdown-menu">
+      <a href="user_signup.html">User Sign Up</a>
+      <a href="company_signup.html">Company Sign Up</a>
+    </div>
+  </div>
+</div>
+
       </nav>
     </header>
     
@@ -40,13 +56,20 @@
               <p>Seekers And Employers </p>
               <p>Effectively</p>
             </div>
-            <a href="#get-started" class="btn-primary">Get Started</a>
+            <!-- Get Started + Dropdown -->
+             <div class="get-started-container">
+              <a href="#dropdown" class="btn-primary main-btn">Get Started</a>
+              <div class="dropdown">
+                <a href="user_login.html" class="btn-primary">User</a>
+                <a href="company-login_html.html" class="btn-primary">Company</a>
+              </div>
+            </div>
           </div>
       </div>
       <div class="hero-video">
         <div class="circle">
           <video autoplay muted loop width="300" height="400">
-            <source src="Image/vb1.mp4" type="video/mp4">
+            <source src="thisone.mp4" type="video/mp4">
             YOUR BROWSER DOES NOT SUPPORT THE VIDEO TAG.
           </video>
         </div>
@@ -114,7 +137,7 @@
 <!-- About Us -->
 <hr class="about-line">
 
-  <section class="about">
+  <section id="about" class="about">
         <div class="about-container">
       <h1>ABOUT US</h1>
       <br/>
@@ -128,7 +151,7 @@
 
 <!--VISION-->
 <hr class="vision-line">
-    <section class="vision">
+    <section id="vision" class="vision">
       <div class="vision-container">
       <h1>OUR VISION</h1>
       <br/>
@@ -175,15 +198,16 @@
       <div class="col2">
         <h3>Quick Links</h3>
         <ul class="quick-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">AboutUs</a></li>
-          <li><a href="#">Vision</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">AboutUs</a></li>
+          <li><a href="#vision">Vision</a></li>
         </ul>
       </div>
 
       <div class="col3">
         <h3>Contact Us</h3>
+        <p><i class="fas fa-phone"></i> +91 6545857520</p>
         <p><i class="fas fa-envelope"></i> careerbridge@gmail.com</p>
         <ul class="contact-links">
           <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
